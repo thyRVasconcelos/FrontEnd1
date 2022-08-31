@@ -5,18 +5,31 @@
 }
 
 .main-header {
-  background-color: green;
+  background-color: #0ecc9d;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 80px;
 }
+
+.main-header h1, nav{
+  font-family: 'Aboreto', cursive;
+  font-size: 30px;
+  color: aliceblue;
+}
 .main-header .logo {
-  width: 50px;
+  width: 70px;
+  display: flex;
 }
 
 .main-header ul {
   display: flex;
-  font-size: 24px;
+  font-size: 20px;
   gap: 24px;
+  
 }
+
+.cards-cidades{
+  display: inline-flex;
+  
+  border: 10px solid;
