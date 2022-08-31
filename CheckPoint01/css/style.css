@@ -1,24 +1,22 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.main-header{
-background-color: green;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 20px 80px;
-
+.main-header {
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
 }
-.main-header .logo{
-    width: 50px;
+.main-header .logo {
+  width: 50px;
 }
 
-.main-header ul{
-    display: flex;
-    font-size: 24px;
-    gap: 24px;
-
+.main-header ul {
+  display: flex;
+  font-size: 24px;
+  gap: 24px;
 }
