@@ -31,5 +31,7 @@
 
 .cards-cidades{
   display: inline-flex;
-  
-  border: 10px solid;
+  box-sizing: content-box;
+  border: 10px solid, color white;
+  padding: 10px;
+}
