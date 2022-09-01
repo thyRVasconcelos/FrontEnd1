@@ -12,8 +12,9 @@
   padding: 20px 80px;
 }
 
-.main-header h1, nav{
-  font-family: 'Aboreto', cursive;
+.main-header h1,
+nav {
+  font-family: "Aboreto", cursive;
   font-size: 30px;
   color: aliceblue;
 }
@@ -26,10 +27,9 @@
   display: flex;
   font-size: 20px;
   gap: 24px;
-  
 }
 
-.cards-cidades{
+.cards-cidades {
   display: inline-flex;
   box-sizing: content-box;
   border: 10px solid, color white;
