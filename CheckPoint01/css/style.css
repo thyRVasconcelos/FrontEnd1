@@ -1,38 +1,60 @@
-* {
-  padding: 0;
-  margin: 0;
+body {
+  font-family: ;
 }
-
 .main-header {
-  
+  width: 100%;
+  background-color: rgba(21, 93, 60, 0.654);
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  padding: 20px;
-  max-width: 1280px;
-  background-color: #0ecc9d;
+  align-content: center;
+  gap: 100px;
+  padding: 1px 10px;
   font-family: "Aboreto", cursive;
-  color: aliceblue;
-  font-size: 25pt;
 }
 
 .logo {
-  width: 100px;
+  width: 250px;
+  height: 100px;
   display: flex;
-  padding: 20;
+  justify-content: center;
+  margin: auto;
+}
+.main-header ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
 }
 
-.main-header li, a {
+.main-header ul,
+li {
+  list-style: none;
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(112, 112, 112);
+  border: 2px solid rgb(99, 99, 99);
+  border-radius: 30px;
+  padding: 10px;
+}
+.main-header li,
+a {
   display: inline-flex;
-  align-items: flex-end;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
   font-size: 15pt;
   text-decoration: none;
   color: aliceblue;
 }
-
-.cards-cidades {
-  display: inline-flex;
-  box-sizing: content-box;
-  border: 10px solid, color white;
-  padding: 10px;
+.banner {
+  background-image: url(/img/brasil.jpg);
+  background-color: rgb(233, 233, 233);
+  background-size: cover;
+  background-position: center bottom;
+  width: 100vw;
+  height: 550px;
 }
+
+
