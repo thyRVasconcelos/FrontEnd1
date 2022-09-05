@@ -1,5 +1,5 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .main-header {
   width: 100%;
@@ -8,7 +8,6 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  align-content: center;
   gap: 100px;
   padding: 1px 10px;
   font-family: "Aboreto", cursive;
@@ -40,7 +39,6 @@ body {
 a {
   display: inline-flex;
   align-items: center;
-  align-content: center;
   justify-content: space-between;
   flex-wrap: wrap;
   font-size: 15pt;
@@ -49,12 +47,47 @@ a {
 }
 /* home */
 .banner {
-  background-image: url(/img/brasil.jpg);
+  background-image: url(../img/brasil.jpg);
   background-color: rgb(233, 233, 233);
   background-size: cover;
-  background-position: center bottom;
+  background-position: center;
   width: 100vw;
   height: 550px;
 }
+/*cards*/
+#curiosidades {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
 
+#curiosidades p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding: 20px;
+}
 
+.cards-cidades {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 20px;
+  width: 450px;
+  transition: all 0.3s ease-out;
+  display: inline-block;
+  flex-direction: row;
+}
+
+.cards-cidades img {
+  width: 400px;
+
+  align-items: center;
+  justify-content: space-between;
+  display: inline-block;
+}
+
+.cards-cidades h2 {
+}
