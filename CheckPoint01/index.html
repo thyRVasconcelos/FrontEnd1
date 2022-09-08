@@ -17,18 +17,19 @@
     />
     <title>CheckPoint 1</title>
   </head>
+  <!--cabeçalho-->
+  <header class="main-header">
+    <img class="logo" src="./img/logo1.png" alt="logo" />
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#curiosidades">Curiosidades</a></li>
+        <li><a href="#videos">Vídeos</a></li>
+      </ul>
+    </nav>
+  </header>
   <body>
-    <!--cabeçalho-->
-    <header class="main-header">
-      <img class="logo" src="./img/logo1.png" alt="logo" />
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#curiosidades">Curiosidades</a></li>
-          <li><a href="#videos">Vídeos</a></li>
-        </ul>
-      </nav>
-    </header>
+    
     <!--banner-->
     <main class="banner">
     </main>
@@ -47,15 +48,22 @@
       </div>
       <div class="cards-cidades">
         <h2>Fortaleza</h2>
-        <img class="imgcard" src="./img/estatua-iracema-guardia-1-1200x783.jpg" alt="estatua-de-iracema" />
-      </div>
+        <div>
+          <img class="imgcard" src="./img/estatua-iracema-guardia-1-1200x783.jpg" alt="estatua-de-iracema" />
+        </div>
        </div>
      
     </section>
+    
     <!--videos-->
-    <section id="videos">
-      <p><h1>Videos</h1></p>
-      <iframe
+
+    <section id="videos" class="videos">
+      
+      <p><h1>Vídeos</h1></p>
+     
+      <div>
+       <div class="cards-videos">
+        <iframe
         width="407"
         height="295"
         src="https://www.youtube.com/embed/8LGJhkhcq0I"
@@ -64,30 +72,41 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
-
-      <iframe
-        width="407"
-        height="295"
-        src="https://www.youtube.com/embed/FeDaWjWFNPw"
-        title="Serra - Espírito Santo"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-
-      <iframe
-        width="407"
-        height="295"
-        src="https://www.youtube.com/embed/5SuzEXGMTZ0"
-        title="•Sorocaba-SP• 4° Mais Populosa Do Interior Paulista 🇧🇷"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
+       </div>
+        <div class="cards-videos">
+          <iframe
+          width="407"
+          height="295"
+          src="https://www.youtube.com/embed/FeDaWjWFNPw"
+          title="Serra - Espírito Santo"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        </div>
+        <div class="cards-videos">
+          <iframe
+          width="407"
+          height="295"
+          src="https://www.youtube.com/embed/5SuzEXGMTZ0"
+          title="•Sorocaba-SP• 4° Mais Populosa Do Interior Paulista 🇧🇷"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        </div>
+      </div>
     </section>
     <!--rodape-->
     <footer>
-      <section id="sobre"></section>
+      <section id="sobre" class="equipe">
+        <div>
+
+
+
+        </div>
+      </section>
+
     </footer>
   </body>
 </html>

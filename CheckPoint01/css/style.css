@@ -1,5 +1,9 @@
 body {
   font-family: "Montserrat", sans-serif;
+  box-shadow: 7px 7px 13px 13px rgba(50, 50, 50, 0.22);
+  padding: 0 30px 30px;
+  margin: 0 20px;
+
 }
 .main-header {
   width: 100%;
@@ -8,7 +12,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  /* position: fixed; */
   gap: 100px;
   padding: 1px 10px;
   font-family: "Aboreto", cursive;
@@ -36,6 +40,10 @@ body {
   border-radius: 30px;
   padding: 10px;
 }
+
+.main-header li:hover {
+  box-shadow: 1px 1px 13px 0px gray;
+}
 .main-header li,
 a {
   display: inline-flex;
@@ -52,7 +60,7 @@ a {
   background-color: rgb(233, 233, 233);
   background-size: cover;
   background-position: center;
-  width: 100vw;
+  width: 100%;
   height: 550px;
 }
 /*cards*/
@@ -71,20 +79,72 @@ a {
 .cards-cidades {
   border-radius: 5px;
   box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-  padding: 30px;
+  padding: 0 30px 30px;
   margin: 20px;
   width: 450px;
   transition: all 0.3s ease-out;
   display: inline-block;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-cidades:hover {
+  background-color: rgba(14, 255, 130, 0.75);
+  box-shadow: 10px 10px 13px 0px gray;
 }
 
 .cards-cidades img {
   width: 400px;
-  align-items: center;
+  align-content: center;
+  justify-items: center;
   justify-content: space-between;
-  display: inline-block;
+  display: flex;
+  border-radius: 10px;
 }
 
 .cards-cidades h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+/*Videos*/
+.videos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.videos p {
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.cards-videos {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 15px 30px 30px;
+  margin: 20px;
+  width: 450px;
+  transition: all 0.3s ease-out;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cards-videos:hover {
+  background-color: rgba(14, 255, 130, 0.75);
+  box-shadow: 10px 10px 13px 0px gray;
+}
+
+.cards-videos iframe {
+  width: 407px;
+  align-items: center;
+  justify-content: space-between;
+  display: inline-block;
+  border-radius: 10px;
 }
