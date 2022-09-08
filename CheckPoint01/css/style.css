@@ -39,6 +39,7 @@ body {
   border: 2px solid rgba(245, 245, 245, 0.498);
   border-radius: 30px;
   padding: 10px;
+  margin: 10px;
 }
 
 .main-header li:hover {
