@@ -1,19 +1,18 @@
 body {
   font-family: "Montserrat", sans-serif;
   box-shadow: 7px 7px 13px 13px rgba(50, 50, 50, 0.22);
-  padding: 0 30px 30px;
-  margin: 0 20px;
-
+  margin: 0 15px;
 }
 .main-header {
   width: 100%;
   background-color: rgb(21, 93, 61);
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   /* position: fixed; */
-  gap: 100px;
+  gap: 1px;
   padding: 1px 10px;
   font-family: "Aboreto", cursive;
 }
@@ -22,13 +21,14 @@ body {
   width: auto;
   height: 100px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: ;
   margin: auto;
 }
 .main-header ul {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  /* gap: 30px; */
 }
 
 .main-header li {
@@ -148,4 +148,18 @@ a {
   justify-content: space-between;
   display: inline-block;
   border-radius: 10px;
+}
+
+.equipe {
+  width: 100%;
+  background-color: rgb(21, 93, 61);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* position: fixed; */
+  gap: 1px;
+  padding: 1px 10px;
+  font-family: "Aboreto", cursive;
 }
