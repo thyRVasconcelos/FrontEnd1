@@ -4,9 +4,10 @@ body {
   font-family: "Raleway", sans-serif;
   text-align: justify;
 }
+
 body img {
-  width: 60%;
 }
+
 /*navbar*/
 .navbar {
   width: 100%;
@@ -18,12 +19,14 @@ body img {
   background-color: aliceblue;
   margin-bottom: 10px;
 }
+
 .letter {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 5px;
 }
+
 .letter img {
   width: 90%;
 }
@@ -35,11 +38,39 @@ body img {
   padding: 10px;
   margin: 5px;
 }
-.navmenu li,
-a {
+
+.nav-menu a {
   text-decoration: none;
   color: rgb(112, 112, 112);
+  /* background-image: linear-gradient(to right, #54b3d6, #54b3d6 50%, #000 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out; */
 }
+
+/* .nav-menu a:before {
+  content: "";
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+.nav-menu a:hover {
+  background-position: 0;
+}
+.nav-menu a:hover::before {
+  width: 100%;
+} */
+
 /*banner*/
 .banner {
   display: flex;
@@ -47,7 +78,8 @@ a {
   justify-content: center;
   background-image: url(../img/banner.jpg);
   background-attachment: fixed;
-  background-position: center;
+  background-position: cover;
+  background-repeat: no-repeat;
   text-decoration: none;
   text-align: justify;
   height: 100vh;
@@ -55,7 +87,6 @@ a {
   perspective: 2px;
   transform-style: preserve-3d;
   margin-bottom: 10px;
-  
 }
 
 .text .button {
@@ -64,27 +95,107 @@ a {
   height: 100vh;
   min-height: 700px;
   transform-style: inherit;
-  
 }
+
 .text p {
   top: 25%;
   width: 100%;
   padding: 20px 0;
-  background-color: rgba(255, 255, 255, 0.157);
+  background-color: rgba(163, 158, 158, 0.24);
   color: gainsboro;
   text-shadow: 1px 1px 5px #000;
   font-size: 20px;
   text-align: center;
 }
+
 .button a {
   display: flex;
   justify-content: center;
   top: 25%;
   width: 100%;
   padding: 20px 0;
-  background-color: rgba(255, 255, 255, 0.157);
-  color: rgb(27, 224, 27);
-  text-shadow: 0 1px 5px #000;
+  background-color: rgba(14, 212, 24);
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 5px #000;
   font-size: 20px;
   text-align: center;
+  border: 1px solid rgb(14, 212, 24);
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.button a:hover {
+}
+
+/* cards cactos */
+
+.produtos {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.produtos,
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 10px;
+  text-align: center;
+}
+
+.cards-cacto {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  padding: 1px 4px 34px;
+  border: 1px solid rgb(221, 217, 217);
+  box-shadow: 1.5px 1px 1px 2px rgb(221, 217, 217);
+  text-align: center;
+}
+
+.cards-cacto img {
+  width: 65%;
+}
+
+.cactos {
+  display: flex;
+  flex-direction: column;
+}
+
+.cactos h1 {
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.cactos p {
+  font-size: x-large;
+  font-weight: 700;
+  color: rgb(0, 100, 0);
+  margin-bottom: 50px;
+}
+
+.button-pay a {
+  padding: 10px 80px;
+  background-color: rgb(21, 67, 23);
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 5px #000;
+  font-size: 15pt;
+  text-align: center;
+  border: 1px solid rgb(21, 67, 23);
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+/* rodapé */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 5px;
+  margin: 5px;
 }
