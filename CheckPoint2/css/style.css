@@ -1,0 +1,90 @@
+/*geral*/
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+  text-align: justify;
+}
+body img {
+  width: 60%;
+}
+/*navbar*/
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  margin-bottom: 10px;
+}
+.letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.letter img {
+  width: 90%;
+}
+
+.nav-menu li {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 5px;
+}
+.navmenu li,
+a {
+  text-decoration: none;
+  color: rgb(112, 112, 112);
+}
+/*banner*/
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../img/banner.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  text-decoration: none;
+  text-align: justify;
+  height: 100vh;
+  overflow-x: hidden;
+  perspective: 2px;
+  transform-style: preserve-3d;
+  margin-bottom: 10px;
+  
+}
+
+.text .button {
+  display: flex;
+  position: column;
+  height: 100vh;
+  min-height: 700px;
+  transform-style: inherit;
+  
+}
+.text p {
+  top: 25%;
+  width: 100%;
+  padding: 20px 0;
+  background-color: rgba(255, 255, 255, 0.157);
+  color: gainsboro;
+  text-shadow: 1px 1px 5px #000;
+  font-size: 20px;
+  text-align: center;
+}
+.button a {
+  display: flex;
+  justify-content: center;
+  top: 25%;
+  width: 100%;
+  padding: 20px 0;
+  background-color: rgba(255, 255, 255, 0.157);
+  color: rgb(27, 224, 27);
+  text-shadow: 0 1px 5px #000;
+  font-size: 20px;
+  text-align: center;
+}
