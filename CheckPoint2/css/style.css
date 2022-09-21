@@ -1,4 +1,12 @@
 /*geral*/
+html {
+  scroll-behavior: smooth;
+}
+
+target {
+  scroll-margin-top: 0.8em;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   font-family: "Raleway", sans-serif;
@@ -39,34 +47,7 @@ body {
 .nav-menu a {
   text-decoration: none;
   color: rgb(112, 112, 112);
-  /* background-image: linear-gradient(to right, #54b3d6, #54b3d6 50%, #000 50%);
-  background-size: 200% 100%;
-  background-position: -100%;
-  display: inline-block;
-  padding: 5px 0;
-  position: relative;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: all 0.3s ease-in-out; */
 }
-
-/* .nav-menu a:before {
-  content: "";
-  background: #54b3d6;
-  display: block;
-  position: absolute;
-  bottom: -3px;
-  left: 0;
-  width: 0;
-  height: 3px;
-  transition: all 0.3s ease-in-out;
-}
-.nav-menu a:hover {
-  background-position: 0;
-}
-.nav-menu a:hover::before {
-  width: 100%;
-} */
 
 /*banner*/
 .banner {
@@ -120,9 +101,6 @@ body {
   border-radius: 10px;
   text-decoration: none;
 }
-
-/* .button a:hover {
-} */
 
 /* cards cactos */
 
@@ -237,11 +215,24 @@ footer {
   text-shadow: 1px 1px 2px rgba(110, 105, 105, 0.724);
 }
 
-.social{
-display: flex;
-justify-content: space-evenly;
-justify-self: center
+.social {
+  display: flex;
+  justify-content: space-evenly;
 }
-.social  svg {
+
+.social svg {
+  margin-top: 15px;
   height: 4em;
+  /* filter: drop-shadow(0 0 1px #4b4b50);
+  animation: flutuar 3s linear infinite; */
 }
+
+/* @keyframes flutuar{
+  0%,
+  100%{
+  transform: translateY(0);
+}
+50%{
+transform: translateY(-23px);
+}
+} */

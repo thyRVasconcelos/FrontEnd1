@@ -1,0 +1,50 @@
+@media screen and (min-width: 1024px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .letter {
+    width: 25vw;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  li {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .nav-menu li:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #54b3d6;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  .nav-menu li:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  .nav-menu a {
+    font-size: 15pt;
+    position: relative;
+    text-decoration: none;
+  }
+
+  .banner {
+    background-size: 100vw;
+  }
+}
