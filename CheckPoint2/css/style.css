@@ -5,9 +5,6 @@ body {
   text-align: justify;
 }
 
-body img {
-}
-
 /*navbar*/
 .navbar {
   width: 100%;
@@ -124,8 +121,8 @@ body img {
   text-decoration: none;
 }
 
-.button a:hover {
-}
+/* .button a:hover {
+} */
 
 /* cards cactos */
 
@@ -198,4 +195,53 @@ footer {
   background-color: aliceblue;
   padding: 5px;
   margin: 5px;
+}
+
+.logo-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.logo-icon img {
+  width: 40%;
+}
+
+.logo-letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.logo-letter img {
+  width: 70%;
+}
+
+.contato {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1px 4px 15px;
+  border: 1px solid rgb(221, 217, 217);
+  box-shadow: 1.5px 1px 1px 2px rgb(221, 217, 217);
+  border-radius: 20px 5px 20px 3px;
+  text-align: center;
+}
+
+.contato h1 {
+  font-size: x-large;
+  text-shadow: 1px 1px 2px rgba(110, 105, 105, 0.724);
+}
+
+.social{
+display: flex;
+justify-content: space-evenly;
+justify-self: center
+}
+.social  svg {
+  height: 4em;
 }
