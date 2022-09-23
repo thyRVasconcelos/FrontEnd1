@@ -1,4 +1,6 @@
 @media screen and (min-width: 1024px) {
+
+  
   .navbar {
     display: flex;
     flex-direction: row;
@@ -45,6 +47,84 @@
   }
 
   .banner {
-    background-size: 100vw;
+    background-size: cover;
+  }
+
+  .text {
+  }
+
+  .text p {
+    text-align: center;
+    font-size: xx-large;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button a {
+    font-size: x-large;
+    width: 20%;
+  }
+
+  .produtos {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .container-cacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .cards-cacto {
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+  }
+
+  .cards-cacto img {
+    justify-content: space-between;
+  }
+
+  .cactos h1 {
+    font-size: medium;
+    text-align: center;
+  }
+footer{display: flex;}
+
+  .rodapé{
+  flex-direction: row;
+  justify-content: center;
+  
+  
+  }
+  .contato{
+  display: flex;
+justify-content: end;
+}
+    
+
+  .social svg {
+    margin-top: 20px;
+    filter: drop-shadow(0 0 1px #4b4b50);
+    animation: flutuar 3s linear infinite;
+  }
+
+  @keyframes flutuar {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-23px);
+    }
   }
 }
