@@ -1,0 +1,246 @@
+/*geral*/
+* {
+  scroll-behavior: smooth;
+  
+}
+
+target {
+  scroll-margin-top: 0.8em;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+  text-align: justify;
+}
+
+/*navbar*/
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  margin-bottom: 10px;
+}
+
+.letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.letter img {
+  width: 90%;
+}
+
+.nav-menu li {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 5px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: rgb(112, 112, 112);
+}
+
+/*banner*/
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../img/banner.jpg);
+  background-attachment: fixed;
+  background-position: cover;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  text-align: justify;
+  height: 100vh;
+  overflow-x: hidden;
+  perspective: 2px;
+  transform-style: preserve-3d;
+  margin-bottom: 10px;
+}
+
+.text .button {
+  display: flex;
+  position: column;
+  height: 100vh;
+  min-height: 700px;
+  transform-style: inherit;
+}
+
+.text p {
+  top: 25%;
+  width: 100%;
+  padding: 20px 0;
+  background-color: rgba(163, 158, 158, 0.24);
+  color: gainsboro;
+  text-shadow: 1px 1px 5px #000;
+  font-size: 20px;
+  text-align: center;
+}
+
+.button a {
+  display: flex;
+  justify-content: center;
+  top: 25%;
+  width: 100%;
+  padding: 20px 0;
+  background-color: rgba(14, 212, 24);
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 5px #000;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid rgb(14, 212, 24);
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+/* cards cactos */
+
+.produtos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.produtos h1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 10px;
+  text-align: center;
+  font-size: 40pt;
+}
+
+.container-cacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px;
+  
+}
+
+.cards-cacto {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  padding: 1px 4px 34px;
+  border: 1px solid rgb(221, 217, 217);
+  box-shadow: 1.5px 1px 1px 2px rgb(221, 217, 217);
+  text-align: center;
+}
+
+.cards-cacto img {
+  display: flex;
+  width: 100%;
+  margin-top: 2px;
+}
+
+.cactos {
+  display: flex;
+  flex-direction: column;
+}
+
+.cactos h1 {
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.cactos p {
+  font-size: x-large;
+  font-weight: 700;
+  color: rgb(0, 100, 0);
+  margin-bottom: 50px;
+}
+
+.button-pay a {
+  padding: 10px 80px;
+  background-color: rgb(21, 67, 23);
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 5px #000;
+  font-size: 15pt;
+  text-align: center;
+  border: 1px solid rgb(21, 67, 23);
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+/* rodapé */
+
+footer {
+  background-color: aliceblue;
+  padding: 10px;
+}
+
+.rodapé {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 2px;
+}
+
+.logo-icon img {
+  width: 30%;
+}
+
+.logo-letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 2px;
+}
+
+.logo-letter img {
+  width: 70%;
+}
+
+.contato {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1px 4px 15px;
+  border: 1px solid rgb(221, 217, 217);
+  box-shadow: 1.5px 1px 1px 2px rgb(221, 217, 217);
+  border-radius: 20px 5px 20px 3px;
+  text-align: center;
+}
+
+.contato h1 {
+  margin: 5px;
+  font-size: medium;
+  text-shadow: 1px 1px 2px rgba(110, 105, 105, 0.724);
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social svg {
+  margin-top: 15px;
+  height: 4em;
+}
