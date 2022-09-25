@@ -1,0 +1,118 @@
+@media screen and (min-width: 768px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .letter {
+    width: 25vw;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  li {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .nav-menu li:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #54b3d6;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  .nav-menu li:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  .nav-menu a {
+    font-size: 15pt;
+    position: relative;
+    text-decoration: none;
+  }
+
+  .banner {
+    background-size: cover;
+  }
+
+  .text p {
+    text-align: center;
+    font-size: xx-large;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button a {
+    font-size: x-large;
+    width: 20%;
+  }
+
+  .produtos {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .container-cacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .cards-cacto {
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+  }
+
+  .cards-cacto img {
+    justify-content: space-between;
+  }
+
+  .cactos h1 {
+    font-size: medium;
+    text-align: center;
+  }
+
+  .rodapé {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .social svg {
+    margin-top: 20px;
+    filter: drop-shadow(0 0 1px #4b4b50);
+    animation: flutuar 3s linear infinite;
+  }
+
+  @keyframes flutuar {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-23px);
+    }
+  }
+}
