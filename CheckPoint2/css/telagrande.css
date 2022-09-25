@@ -43,7 +43,7 @@
     position: relative;
     text-decoration: none;
   }
-
+  /* banner */
   .banner {
     background-size: cover;
   }
@@ -64,6 +64,8 @@
     width: 20%;
   }
 
+  /* lista de produtos */
+
   .produtos {
     display: flex;
     justify-content: space-between;
@@ -82,6 +84,7 @@
     display: flex;
     justify-content: space-between;
     margin: 5%;
+    height: 40vw;
   }
 
   .cards-cacto img {
@@ -93,6 +96,11 @@
     text-align: center;
   }
 
+  .cards-cacto:hover {
+  background-color: rgba(14, 255, 130, 0.75);
+  box-shadow: 10px 10px 13px 10px gray;
+}
+/* footer */
   .rodapé {
     display: flex;
     flex-direction: row;
