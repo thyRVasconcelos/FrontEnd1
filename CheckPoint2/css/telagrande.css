@@ -1,6 +1,4 @@
-@media screen and (min-width: 1024px) {
-
-  
+@media screen and (min-width: 768px) {
   .navbar {
     display: flex;
     flex-direction: row;
@@ -50,9 +48,6 @@
     background-size: cover;
   }
 
-  .text {
-  }
-
   .text p {
     text-align: center;
     font-size: xx-large;
@@ -97,19 +92,12 @@
     font-size: medium;
     text-align: center;
   }
-footer{display: flex;}
 
-  .rodapé{
-  flex-direction: row;
-  justify-content: center;
-  
-  
+  .rodapé {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
-  .contato{
-  display: flex;
-justify-content: end;
-}
-    
 
   .social svg {
     margin-top: 20px;
