@@ -1,7 +1,6 @@
 /*geral*/
 * {
   scroll-behavior: smooth;
-  
 }
 
 target {
@@ -110,7 +109,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
 .produtos h1 {
@@ -129,7 +127,6 @@ body {
   align-items: center;
   justify-content: space-around;
   margin: 20px;
-  
 }
 
 .cards-cacto {

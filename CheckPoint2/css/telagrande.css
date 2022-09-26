@@ -43,6 +43,7 @@
     position: relative;
     text-decoration: none;
   }
+
   /* banner */
   .banner {
     background-size: cover;
@@ -97,10 +98,11 @@
   }
 
   .cards-cacto:hover {
-  background-color: rgba(14, 255, 130, 0.75);
-  box-shadow: 10px 10px 13px 10px gray;
-}
-/* footer */
+    background-color: rgba(14, 255, 130, 0.75);
+    box-shadow: 10px 10px 13px 10px gray;
+  }
+
+  /* footer */
   .rodapé {
     display: flex;
     flex-direction: row;
